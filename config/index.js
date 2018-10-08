@@ -536,6 +536,12 @@ var conf = convict({
       format: String,
       env: 'DELIVERY_QUEUE_URL',
       default: ''
+    },
+    notificationQueueUrl: {
+      doc: 'The email notification queue URL, for notifications from fxa-email-service (eventually this will be the only queue)",
+      format: String,
+      env: 'NOTIFICATION_QUEUE_URL',
+      default: ''
     }
   },
   profileServerMessaging: {
