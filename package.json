@@ -20,7 +20,9 @@
     "test-ci": "scripts/test-local.sh",
     "test-e2e": "NODE_ENV=dev mocha test/e2e",
     "test-scripts": "mocha test/scripts --exit",
-    "test-remote": "MAILER_HOST=restmail.net MAILER_PORT=80 CORS_ORIGIN=http://baz mocha --timeout=300000 test/remote"
+    "test-remote": "MAILER_HOST=restmail.net MAILER_PORT=80 CORS_ORIGIN=http://baz mocha --timeout=300000 test/remote",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -82,7 +84,8 @@
     "scrypt-hash": "1.1.14",
     "through": "2.3.8",
     "uuid": "1.4.1",
-    "web-push": "3.3.0"
+    "web-push": "3.3.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "acorn": "5.0.3",
@@ -119,5 +122,6 @@
     "sinon": "1.17.5",
     "sjcl": "1.0.6",
     "ws": "5.2.2"
-  }
+  },
+  "snyk": true
 }
