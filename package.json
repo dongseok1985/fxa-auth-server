@@ -67,7 +67,7 @@
     "mozlog": "2.0.6",
     "newrelic": "4.1.0",
     "node-uap": "git+https://github.com/vladikoff/node-uap.git#9cdd16247",
-    "nodemailer": "2.7.2",
+    "nodemailer": "6.4.16",
     "otplib": "8.0.1",
     "po2json": "0.4.5",
     "poolee": "1.0.1",
