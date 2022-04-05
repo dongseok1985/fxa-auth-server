@@ -43,7 +43,7 @@
     "buffer-equal-constant-time": "1.0.1",
     "cldr-core": "31.0.1",
     "cldr-localenames-full": "31.0.1",
-    "convict": "4.3.1",
+    "convict": "6.0.0",
     "email-addresses": "2.0.2",
     "fxa-geodb": "1.0.3",
     "fxa-jwtool": "0.7.2",
